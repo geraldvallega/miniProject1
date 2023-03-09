@@ -1,0 +1,28 @@
+*{
+    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+} 
+body{
+    font-family: roboto, sans-serif;
+    background-image: url(https://www.lumina.com.ph/assets/news-and-blogs-photos/tarlac-living-all-the-good-reasons-why-tarlac-should-be-your-home/Why-Tarlac-Should-Be-Your-Home-Lumina-Homes-Tarlac-House-and-lot-for-sale.webp);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* ---------------------------------------------Hero Section------------------------------ */
+.hero{
+display: inline-flex;
+
+}
+
+.main{
+    background-color: rgba(240, 255, 255, 0.486);
+    width: 80%;
+    margin: auto;
+    padding: 5rem;
+
+}
+
