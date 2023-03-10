@@ -15,11 +15,15 @@ body{
 }
 /* ---------------------------------------------Hero Section------------------------------ */
 .header{
+    color: white;
     background-color: rgba(0, 0, 0, 0.322);
     max-width: 100%;
     text-align: center;
     font-weight: 700;
  
+}
+nav ul{
+    white-space: nowrap;
 }
 
 /* .header-title, .header-tagline{
@@ -29,8 +33,10 @@ body{
     top:20px;
 } */
  nav li{
+   
     text-decoration: none;
-    display: inline-block;
+    display: flex;
+    /* width: 10%; */
 
  }
 
