@@ -7,22 +7,75 @@
 } 
 body{
     font-family: roboto, sans-serif;
-    background-image: url(https://www.lumina.com.ph/assets/news-and-blogs-photos/tarlac-living-all-the-good-reasons-why-tarlac-should-be-your-home/Why-Tarlac-Should-Be-Your-Home-Lumina-Homes-Tarlac-House-and-lot-for-sale.webp);
+    background-image: url(https://www.lumina.com.ph/assets/news-and-blogs-photos/tarlac-living-all-the-good-reasons-why-tarlac-should-be-your-home/Why-Tarlac-Should-Be-Your-Home-Lumina-Homes-Tarlac-House-and-lot-for-sale.webp); 
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 100%;
 }
 /* ---------------------------------------------Hero Section------------------------------ */
-.hero{
-display: inline-flex;
+.header{
+    background-color: rgba(0, 0, 0, 0.322);
+    font-weight: 700;
+    position: relative;
+    left: 200px;
+    top:20px;
+    /* padding: 1rem; */
+/* text-align: center; */
+/* background-image: linear-gradient(to bottom, rgba(0, 255, 255, 0.459), rgba(255, 255, 255, 0.473)); */
 
 }
+ .nav-link ul{
+    text-decoration: none;
+/* display: -ms-inline-grid; */
+ }
+
+ .photo_banner img{
+    background-color:coral, white;
+    height: 200px;
+    width: 400px;
+    border-radius: 10px;
+    /* position:relative;
+    left: 100px; */
+ }
+
+ .photo_banner-1{
+    left: 100px;
+    position: relative;
+    bottom:10px;
+    box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
+-webkit-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
+-moz-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
+ }
+
+ .photo_banner-2{
+    position: relative;
+    left: -20px;
+    bottom:30px;
+    box-shadow: -8px 10px 10px -1px rgba(45,52,56,0.75);
+-webkit-box-shadow: -8px 10px 10px -1px rgba(45,52,56,0.75);
+-moz-box-shadow: -8px 10px 10px -1px rgba(45,52,56,0.75);
+ }
+
+ .photo_banner-3{
+    left: -120px;
+    position: relative;
+    z-index: -1;
+    bottom:10px;
+    box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
+-webkit-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
+-moz-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
+ }
 
 .main{
     background-color: rgba(240, 255, 255, 0.486);
-    width: 80%;
-    margin: auto;
+    width: 50%;
+    /* margin: auto; */
     padding: 5rem;
+    border: 5rem;
+    position:relative;
+    left: 20px;
+    /* right:20px; */
 
 }
 
