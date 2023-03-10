@@ -81,15 +81,15 @@ nav ul{
 -moz-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
  }
 
- /* .side-bar{
-    background-color: darksalmon;
-
-    width: 40%;
-    margin
-   position:relative;
-    left: 1000px;
-    top: 100px;
- } */
+.carousel-item{
+    height: 400px; 
+    width: 600px;
+    object-fit: scale-down;
+    position: relative; 
+    left: 700px;
+    border-radius: 10px;
+}
+  
 
 .main{
     background-color: rgba(240, 255, 255, 0.486);
