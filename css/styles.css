@@ -26,7 +26,7 @@ body{
     max-width: 100%;
     text-align: center;
     text-shadow: rgb(252, 157, 179) 1px 0 10px;
-    outline: 1px solid red;
+    outline: 1px solid rgb(243, 241, 241);
     font-weight: 400;
     z-index: 1;
  
