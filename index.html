@@ -11,54 +11,101 @@
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Courgette&family=Patua+One&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/styles.css">
     
 </head>
 
 <body>
     <!----------------------------------------------- Hero Section ----------------------------------------------->
     <!-- <Section class="hero"> -->
-        <header class="header">
+        <header>
             <div class="header-title">
-                <h1>Tour Tarlac (MalaTarlak)</h1>
-                <h3>"Feel the exiciting fun and adventure"</h3>
+                <h1>Explore Tarlac (MalaTarlak)</h1>
+                <h3>"Feel the exiciting fun and adventure at the heart of Central Luzon"</h3>
             </div>
-            <nav>
-                <ul>
+        </header>
+            <!-- <div class="photo_banner">
+                <img class="photo_banner-1" src="https://images.pexels.com/photos/356289/pexels-photo-356289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="motocross">
+                <img class="photo_banner-2" src="https://images.pexels.com/photos/5640520/pexels-photo-5640520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cart race">
+                <img class="photo_banner-3" src="https://2.bp.blogspot.com/-OAb2Mun5Da8/W0ll2eiNWUI/AAAAAAAAe7s/C8Q9pAl6b4oDafFSy7wa0Qk-Qfzu7lI1QCLcBGAs/s1600/1800250_10151922634432793_1320301886%255B1%255D.jpg" alt="kayak">
+            </div>  -->
+        
+                <!-- 
+            <nav class="nav">
+                <ul class="nav-link">
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">Tourist Spot Destination</a></li>
                     <li><a href="#">Province Map</a></li>
                 </ul>
             </nav>
-        </header>
         
-        <section class="photo_banner">
-            <img class="photo_banner-1" src="https://images.pexels.com/photos/356289/pexels-photo-356289.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="motocross">
-            <img class="photo_banner-2" src="https://images.pexels.com/photos/5640520/pexels-photo-5640520.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="cart race">
-            <img class="photo_banner-3" src="https://2.bp.blogspot.com/-OAb2Mun5Da8/W0ll2eiNWUI/AAAAAAAAe7s/C8Q9pAl6b4oDafFSy7wa0Qk-Qfzu7lI1QCLcBGAs/s1600/1800250_10151922634432793_1320301886%255B1%255D.jpg" alt="kayak">
-        </section><br><br>
+        
+        -->
         <!-- <aside class="side-bar">
             <h3>News and Updates</h3>
         </aside> -->
     <!-- </Section> -->
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active">
-            <img src="../miniProject1/images/13735635845_30679d7dc1_o.jpg" class="d-block w-100" alt="image1">
-          </div>
-          <div class="carousel-item ">
-            <img src="../miniProject1/images/13736023284_92ea29f52f_o.jpg" class="d-block w-100" alt="image2">
-          </div>
-          <div class="carousel-item">
-            <img src="../miniProject1/images/13736027964_3f9947d928_o.jpg" class="d-block w-100" alt="image3">
-          </div>
-        </div>
-      </div>
+    
     <!---------------------------------------------- Main Section ------------------------------------------------->
-    <main class="main">
+    <main>
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>First slide label</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="..." class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Second slide label</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="https://cdn-0.danielsecotravels.com/wp-content/uploads/2020/03/23231431_511839452509454_3581965610793125399_n.jpg?ezimgfmt=ng:webp/ngcb14" class="d-block w-100" alt="Anzap Twin Falls">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Anzap Twin Falls</h5>
+                  <p></p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        
+        <!-- <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="../miniProject1/images/13735635845_30679d7dc1_o.jpg" class="d-block w-100" alt="image1">
+              </div>
+              <div class="carousel-item ">
+                <img src="../miniProject1/images/13736023284_92ea29f52f_o.jpg" class="d-block w-100" alt="image2">
+              </div>
+              <div class="carousel-item">
+                <img src="../miniProject1/images/13736027964_3f9947d928_o.jpg" class="d-block w-100" alt="image3">
+              </div>
+            </div>
+          </div> -->
        
-            <article class="tarlac_province">
+             <!-- <article class="tarlac_province">
                 <h2>About</h2>
                 <p>
                 <H4>Tarlac Province</H4>
@@ -69,7 +116,7 @@
                <table>
                 <tr>
                     <th scope="row">BRIEF PROFILE</th>
-                    <!-- <th scope="col"></th> -->
+                   
                  </tr> 
                  <tr>
                     <th scope="row">Capital:</th> 
@@ -173,7 +220,7 @@
                     Because the province is landlocked, its fish production is limited to fishponds. On the boundary with Zambales in the west, forest lands provide timber for the logging industry. Mineral reserves such as manganese and iron can also be found along the western section.
                     Tarlac has its own rice and corn mills as well as sawmills and logging outfits. It has three sugar centrals. Other firms service agricultural needs such as fertilizer. Among its cottage industries, ceramics making has become important because of the abundant supply of clay. Some of the major industries here are the making of the delicious and famous Chicharon and Iniruban in the municipality of Camiling, Ylang Ylang products of Anao and the Muscovado sugar products of Victoria. Besides those products, the province also boosts its sugar products in the Philippines. It is next to Negros Occidental which is the nation's sugar capital. Tilapia is also improving in Tarlac and it will soon be the Tilapia capital of the Philippines.
                 </p>
-            </article>
+            </article> -->
       
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>

@@ -1,46 +1,37 @@
-*{
+/* *{
     
-    margin: 0;
+    margin: 0,1px;
     padding: 0;
-    box-sizing: border-box;
+    
 
-} 
+}  */
 body{
     font-family: roboto, sans-serif;
-    background-image: url(https://www.lumina.com.ph/assets/news-and-blogs-photos/tarlac-living-all-the-good-reasons-why-tarlac-should-be-your-home/Why-Tarlac-Should-Be-Your-Home-Lumina-Homes-Tarlac-House-and-lot-for-sale.webp); 
+    background-image: url(https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
+    ); 
     background-repeat:no-repeat;
     background-size: cover;
     background-position: center;
-    max-width: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
 }
 /* ---------------------------------------------Hero Section------------------------------ */
-.header{
-    color: white;
-    background-color: rgba(0, 0, 0, 0.322);
+.header-title {
+    font-family: 'Patua One', cursive;
+    color:rgb(195, 240, 123);
+    position: relative;
+    top: 100px;
+    /* background-color: rgba(245, 183, 183, 0.459);  */
     max-width: 100%;
     text-align: center;
-    font-weight: 700;
+    text-shadow: rgb(252, 157, 179) 1px 0 10px;
+    outline: 1px solid red;
+    font-weight: 400;
+    z-index: 1;
  
 }
-nav ul{
-    white-space: nowrap;
-}
-
-/* .header-title, .header-tagline{
-   
-    position: relative;
-    left: 200px;
-    top:20px;
-} */
- nav li{
-   
-    text-decoration: none;
-    display: flex;
-    /* width: 10%; */
-
- }
-
- .photo_banner{
+  .photo_banner{
     position: relative;
     top: 20px;
  }
@@ -81,15 +72,41 @@ nav ul{
 -moz-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
  }
 
+ nav ul{
+    white-space: nowrap;
+}
+
+.nav-link{
+    text-decoration: none;
+    display: flex;
+    /* width: 10%; */
+
+ }
+
+ #carouselExampleCaptions{
+    position: relative;
+    top: 150px;
+    left: 120px;
+    width: 80%;
+    /* margin: auto; */
+
+ }
+
+
 .carousel-item{
-    height: 400px; 
-    width: 600px;
-    object-fit: scale-down;
+   
+    height: 300px; 
+    width: 400px;
+    /* object-fit:cover; */
     position: relative; 
-    left: 700px;
+    /* top: 200px; */
+    left: 350px; 
+    border-style: solid;
+    /* outline-style:solid red; */
     border-radius: 10px;
 }
-  
+
+
 
 .main{
     background-color: rgba(240, 255, 255, 0.486);
