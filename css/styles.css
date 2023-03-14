@@ -5,33 +5,36 @@
     
 
 }  */
-body{
-    font-family: roboto, sans-serif;
-    background-image: url(https://images.pexels.com/photos/2739013/pexels-photo-2739013.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1
-    ); 
-    background-repeat:no-repeat;
-    background-size: cover;
-    background-position: center;
-    box-sizing: border-box;
-    height: 100%;
-    width: 100%;
+body {
+  font-family: roboto, sans-serif;
+  background-image: url(https://images.pexels.com/photos/5864623/pexels-photo-5864623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  margin: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
 }
 /* ---------------------------------------------Hero Section------------------------------ */
 .header-title {
-    font-family: 'Patua One', cursive;
-    color:rgb(195, 240, 123);
-    position: relative;
-    top: 100px;
-    /* background-color: rgba(245, 183, 183, 0.459);  */
-    max-width: 100%;
-    text-align: center;
-    text-shadow: rgb(252, 157, 179) 1px 0 10px;
-    outline: 1px solid rgb(243, 241, 241);
-    font-weight: 400;
-    z-index: 1;
- 
+  font-family: "Patua One", cursive;
+  color:whitesmoke;
+  position: relative;
+  top: 100px;
+  /* background-color: rgba(245, 183, 183, 0.459);  */
+  max-width: 100%;
+  text-align: center;
+  text-shadow: rgb(245, 79, 107) 1px 0 10px;
+  outline: 1px solid rgb(243, 241, 241);
+  font-weight: 400;
+  z-index: 1;
 }
-  .photo_banner{
+ main{
+  margin:0;
+  padding: 0;
+ }
+/* .photo_banner{
     position: relative;
     top: 20px;
  }
@@ -41,7 +44,7 @@ body{
     width: 400px;
     border-radius: 10px;
     /* position:relative;
-    left: 100px; */
+    left: 100px; 
  }
 
  .photo_banner-1{
@@ -70,60 +73,101 @@ body{
     box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
 -webkit-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
 -moz-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
- }
+ } */
 
- 
+#carouselExampleCaptions {
 
- #carouselExampleCaptions{
-    position: relative;
-    top: 150px;
-    left: 120px;
-    width: 80%;
-    /* margin: auto; */
-
- }
-
-
-.carousel-item{
-   
-    height: 300px; 
-    width: 400px;
-    /* object-fit:cover; */
-    position: relative; 
-    /* top: 200px; */
-    left: 350px; 
-    border-style: solid;
-    /* outline-style:solid red; */
-    border-radius: 10px;
+  position: relative;
+  top: 150px;
+  left: 120px;
+  width: 80%;
+  background-color: rgba(245, 245, 245, 0.144);
+  border-radius: 10px;
+  /* margin: auto; */
 }
 
 
+.carousel-item {
+  height: 300px;
+  width: 400px;
+  position: relative;
+  left: 350px;
+  border-style: solid;
+  border-radius: 10px;
+}
 
-.main{
+/* .bottom-bar{
+    position: relative;
+    top: 250px;
+     opacity: 50%; 
+} */
+/* #navbarToggleExternalContent{
+    opacity: 50%;
+} */
+
+/* .main{
     background-color: rgba(240, 255, 255, 0.486);
     width: 50%;
-    /* margin: auto; */
+    /* margin: auto; 
     padding: 5rem;
     border: 5rem;
     position:relative;
     left: 20px;
-    /* right:20px; */
+    /* right:20px; *
 
-}
-footer{
+} */
+/* footer{
     position: relative;
-    top: 250px;
+    top: 250px; 
     background-color: darkolivegreen;
+
+}  */
+nav {
+  background-color: rgba(31, 32, 29, 0.993);
+  width: 100;
+  position: relative;
+  top: 250px;
+  padding: 20px;
+}
+nav ul{
+  white-space: nowrap;
+  margin:0 auto;
+} 
+
+nav li{
+  display: inline-block;
+  width:20%; 
 }
 
+nav li a{
+  text-decoration: none;
+  color: white;
+}
 
-.nav li{
-    color: black;
-    text-decoration: none;
-    display: inline;
-    width: 25%;
-    white-space: nowrap;
- 
+/* -----------------------------------About Page----------------------------------- */
+.aboutPage {
+    font-family: roboto, sans-serif;
+    background-image: url(https://img.freepik.com/premium-photo/light-brown-weaved-bamboo-mat-texture-background_34939-255.jpg?w=740);
+    background-repeat:no-repeat;
+    background-size: cover;
+    background-position:center;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}
+.mainAboutPage{
+    width: 80%;
+    margin: 10% auto;
+     line-height: 2em; 
+     /* text-align: left ; */
+     font-weight: 700;
+     justify-content: center;
+     padding: 0 10px;
+}
 
- }
-
+.about{
+  background-color: rgba(87, 73, 68, 0.404);
+  /* position: fixed; */
+  width: 100%;
+  padding: 0 10px;
+}
