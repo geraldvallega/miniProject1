@@ -130,6 +130,8 @@ cursor: pointer;
 img{
   float: right;
   outline-style: groove;
+  width: 300px;
+  height: 300px;
 }
 
 h4{
