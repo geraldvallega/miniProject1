@@ -153,3 +153,9 @@ h4{
   top: 78px;
   z-index: 1;
  }
+
+ /* --------------------------------------------------Tourist Spot--------------------------- */
+body{
+  background-image: url(https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+  
+}
