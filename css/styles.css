@@ -1,79 +1,33 @@
-/* *{
-    
-    margin: 0,1px;
-    padding: 0;
+ 
     
 
-}  */
+
 body {
   font-family: roboto, sans-serif;
   background-image: url(https://images.pexels.com/photos/5864623/pexels-photo-5864623.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: rgba(31, 32, 29, 0.993);
   background-position: center;
-  margin: 0;
-  box-sizing: border-box;
-  height: 100%;
-  width: 100%;
+  
+
 }
+
 /* ---------------------------------------------Hero Section------------------------------ */
 .header-title {
   font-family: "Patua One", cursive;
   color:whitesmoke;
   position: relative;
   top: 100px;
-  /* background-color: rgba(245, 183, 183, 0.459);  */
-  max-width: 100%;
   text-align: center;
-  text-shadow: rgb(245, 79, 107) 1px 0 10px;
+  text-shadow: rgb(0, 132, 255) 1px 0 10px;
   outline: 1px solid rgb(243, 241, 241);
   font-weight: 400;
-  z-index: 1;
+  
 }
- main{
-  margin:0;
-  padding: 0;
- }
-/* .photo_banner{
-    position: relative;
-    top: 20px;
- }
- .photo_banner img{
-    background-color:coral, white;
-    height: 200px;
-    width: 400px;
-    border-radius: 10px;
-    /* position:relative;
-    left: 100px; 
- }
+ 
 
- .photo_banner-1{
-    left: 100px;
-    position: relative;
-    bottom:10px;
-    box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
--webkit-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
--moz-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
- }
-
- .photo_banner-2{
-    position: relative;
-    left: -20px;
-    bottom:30px;
-    box-shadow: -8px 10px 10px -1px rgba(45,52,56,0.75);
--webkit-box-shadow: -8px 10px 10px -1px rgba(45,52,56,0.75);
--moz-box-shadow: -8px 10px 10px -1px rgba(45,52,56,0.75);
- }
-
- .photo_banner-3{
-    left: -120px;
-    position: relative;
-    z-index: -1;
-    bottom:10px;
-    box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
--webkit-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
--moz-box-shadow: -8px 10px 20px -4px rgba(207,21,21,0.75);
- } */
+ 
 
 #carouselExampleCaptions {
 
@@ -94,60 +48,57 @@ body {
   left: 350px;
   border-style: solid;
   border-radius: 10px;
+  object-fit:fill;
 }
 
-/* .bottom-bar{
-    position: relative;
-    top: 250px;
-     opacity: 50%; 
-} */
-/* #navbarToggleExternalContent{
-    opacity: 50%;
-} */
 
-/* .main{
-    background-color: rgba(240, 255, 255, 0.486);
-    width: 50%;
-    /* margin: auto; 
-    padding: 5rem;
-    border: 5rem;
-    position:relative;
-    left: 20px;
-    /* right:20px; *
 
-} */
-/* footer{
-    position: relative;
-    top: 250px; 
-    background-color: darkolivegreen;
-
-}  */
-nav {
-  background-color: rgba(31, 32, 29, 0.993);
-  width: 100;
+ footer{
+  
   position: relative;
-  top: 250px;
-  padding: 20px;
-}
+  top: 470px; 
+  height: 20vh;
+
+}  
+ nav {
+  height: 20vh;
+  padding: 20px 0;
+} 
 nav ul{
   white-space: nowrap;
-  margin:0 auto;
+  margin:auto;
 } 
 
-nav li{
-  display: inline-block;
-  width:20%; 
-}
 
 nav li a{
   text-decoration: none;
   color: white;
 }
+.socialMedia_items {
+  display: inline-block;
+  color: rgb(0, 132, 255);
+  position: relative;
+  left: 500px;
+  bottom: 60px;
+  width: 10%;
+  font-size: x-large;
+  padding: 0;
+  margin: 0;
+ 
+  }
+ .fa fa-instagram:hover {
+  background-color: crimson;
+transform: translate(-5px -10px);
+cursor: pointer;
+ }  */
+
+
+
 
 /* -----------------------------------About Page----------------------------------- */
 .aboutPage {
     font-family: roboto, sans-serif;
-    background-image: url(https://img.freepik.com/premium-photo/light-brown-weaved-bamboo-mat-texture-background_34939-255.jpg?w=740);
+    background-image: url(https://images.pexels.com/photos/3060703/pexels-photo-3060703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
     background-repeat:no-repeat;
     background-size: cover;
     background-position:center;
@@ -156,6 +107,7 @@ nav li a{
     width: 100%;
 }
 .mainAboutPage{
+  /* background-color: rgba(245, 245, 245, 0.336); */
     width: 80%;
     margin: 10% auto;
      line-height: 2em; 
