@@ -70,7 +70,7 @@ nav ul{
 } 
 
 
-nav li a{
+li a{
   text-decoration: none;
   color: white;
 }
@@ -86,11 +86,11 @@ nav li a{
   margin: 0;
  
   }
- .fa fa-instagram:hover {
+ /* .fa fa-instagram:hover {
   background-color: crimson;
 transform: translate(-5px -10px);
 cursor: pointer;
- }  */
+ }  */ 
 
 
 
@@ -98,13 +98,21 @@ cursor: pointer;
 /* -----------------------------------About Page----------------------------------- */
 .aboutPage {
     font-family: roboto, sans-serif;
-    background-image: url(https://images.pexels.com/photos/3060703/pexels-photo-3060703.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-image: url(https://img.freepik.com/premium-photo/bamboo-wicker-pattern-as-background-extreme-closeup_476612-6650.jpg?w=740);
     background-repeat:no-repeat;
-    background-size: cover;
+    background-size: fill;
     background-position:center;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+}
+
+.about{
+  background-color: rgba(87, 73, 68, 0.404);
+/* position: sticky; */
+  width: 100%;
+  padding: 10px;
+  text-align: center;
 }
 .mainAboutPage{
   /* background-color: rgba(245, 245, 245, 0.336); */
@@ -113,13 +121,14 @@ cursor: pointer;
      line-height: 2em; 
      /* text-align: left ; */
      font-weight: 700;
+     font-size: 20px;
+     /* text-shadow: 0.5px 0.5px white; */
      justify-content: center;
      padding: 0 10px;
 }
 
-.about{
-  background-color: rgba(87, 73, 68, 0.404);
-  /* position: fixed; */
-  width: 100%;
-  padding: 0 10px;
+h4{
+  font-weight: 700;
+     font-size: 24px;
 }
+
