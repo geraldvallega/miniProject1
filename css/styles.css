@@ -108,11 +108,12 @@ cursor: pointer;
 }
 
 .about{
-  background-color: rgba(87, 73, 68, 0.404);
+  background-color: rgba(87, 73, 68, 0.568);
 /* position: sticky; */
   width: 100%;
   padding: 10px;
   text-align: center;
+ 
 }
 .mainAboutPage{
   /* background-color: rgba(245, 245, 245, 0.336); */
@@ -126,9 +127,15 @@ cursor: pointer;
      justify-content: center;
      padding: 0 10px;
 }
+img{
+  float: right;
+  outline-style: groove;
+}
 
 h4{
+  text-align: center;
   font-weight: 700;
      font-size: 24px;
+     background-color: rgba(87, 73, 68, 0.404);
 }
 
