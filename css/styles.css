@@ -157,22 +157,43 @@ h4{
  }
 
  /* --------------------------------------------------Tourist Spot--------------------------- */
-/* *{
+
+
+
+ .tourismPage{
+  font-family: 'Courgette', cursive;
   box-sizing: border-box;
-}
- body{
+  margin: 0;
+  padding: 0;
   background-image: url(https://images.pexels.com/photos/531756/pexels-photo-531756.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
-  
+  background-size: cover;
+  background-position: center;
 }
 
-header{
+.touristSpotheader{
   font-family: roboto, sans-serif;
+  padding: 10px;
+  text-align: center;
   color: white;
   background-color: rgb(87, 73, 68);
   width: 100%;
 }
+
+.mainParagraph{
+  font-size: 20px;
+line-height: 2em;
+margin: auto;
+padding: 10px;
+width: 90%;
+}
 img{
-  height: 400px;
-  width: 400px;
-  float: right;
-} */
+  height: 250px;
+  width: 250px;
+  object-position:center;
+  align-items: center;
+  padding: 5px;
+  /* float: right; */
+}
+/* .conatiner{
+  padding: 100px;
+}  */
