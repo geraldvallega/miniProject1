@@ -29,7 +29,7 @@ body {
 
  
 
-#carouselExampleCaptions {
+/* #carouselExampleCaptions {
 
   position: relative;
   top: 150px;
@@ -37,7 +37,7 @@ body {
   width: 80%;
   background-color: rgba(245, 245, 245, 0.144);
   border-radius: 10px;
-  /* margin: auto; */
+  
 }
 
 
@@ -49,7 +49,7 @@ body {
   border-style: solid;
   border-radius: 10px;
   object-fit:fill;
-}
+} */
 
 
 
@@ -86,11 +86,7 @@ li a{
   margin: 0;
  
   }
- /* .fa fa-instagram:hover {
-  background-color: crimson;
-transform: translate(-5px -10px);
-cursor: pointer;
- }  */ 
+ 
 
 
 
@@ -121,14 +117,11 @@ cursor: pointer;
  z-index: 2;
 }
 .mainAboutPage{
-  /* background-color: rgba(245, 245, 245, 0.336); */
     width: 80%;
     margin: 10% auto;
      line-height: 2em; 
-     /* text-align: left ; */
      font-weight: 700;
      font-size: 20px;
-     /* text-shadow: 0.5px 0.5px white; */
      justify-content: center;
      padding: 0 10px;
 }
@@ -192,8 +185,5 @@ img{
   object-position:center;
   align-items: center;
   padding: 5px;
-  /* float: right; */
+  
 }
-/* .conatiner{
-  padding: 100px;
-}  */
