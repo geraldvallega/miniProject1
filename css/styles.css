@@ -1,5 +1,11 @@
  
-    
+    :root{
+      --header-bg-color:hsl(16, 12%, 30%);
+      --fs-37: 2.36rem;
+      --fw-400: 25rem;
+      --font-family--1:'roboto', sans-serif;
+      --font-family--2: 'Patua One', cursive;
+    }
 
 
 body {
@@ -15,14 +21,14 @@ body {
 
 /* ---------------------------------------------Hero Section------------------------------ */
 .header-title {
-  font-family: "Patua One", cursive;
+  font-family:var(--font-family--2);
   color:whitesmoke;
   position: relative;
   top: 100px;
   text-align: center;
   text-shadow: rgb(0, 132, 255) 1px 0 10px;
   outline: 1px solid rgb(243, 241, 241);
-  font-weight: 400;
+  font-weight: var(--fw-400);
   
 }
  
@@ -93,7 +99,7 @@ li a{
 
 /* -----------------------------------About Page----------------------------------- */
 .aboutPage{
-    font-family: roboto, sans-serif;
+    font-family: 'roboto', sans-serif;
     background-image: url(https://img.freepik.com/premium-photo/bamboo-wicker-pattern-as-background-extreme-closeup_476612-6650.jpg?w=740);
     background-repeat:no-repeat;
     background-size: fill;
@@ -106,7 +112,7 @@ li a{
 }
 
 .about{
-  background-color: rgb(87, 73, 68);
+  background-color: var(--header-bg-color);
   color: white;
   position: -webkit-sticky;
   position: sticky;
@@ -154,7 +160,7 @@ h4{
 
 
  .tourismPage{
-  font-family: 'Courgette', cursive;
+  font-family:var(--font-family--2);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
