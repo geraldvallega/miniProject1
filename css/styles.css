@@ -3,8 +3,8 @@
       --header-bg-color:hsl(16, 12%, 30%);
       --fs-37: 2.36rem;
       --fw-400: 25rem;
-      --font-family--1:'roboto', sans-serif;
-      --font-family--2: 'Patua One', cursive;
+      --ff--1:'roboto', sans-serif;
+      --ff--2: 'Patua One', cursive;
     }
 
 
@@ -21,7 +21,7 @@ body {
 
 /* ---------------------------------------------Hero Section------------------------------ */
 .header-title {
-  font-family:var(--font-family--2);
+  font-family:var(--ff--2);
   color:whitesmoke;
   position: relative;
   top: 100px;
@@ -160,7 +160,7 @@ h4{
 
 
  .tourismPage{
-  font-family:var(--font-family--2);
+  font-family:var(--ff--1);
   box-sizing: border-box;
   margin: 0;
   padding: 0;
