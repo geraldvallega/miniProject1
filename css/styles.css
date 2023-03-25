@@ -2,7 +2,7 @@
     :root{
       --header-bg-color:hsl(16, 12%, 30%);
       --fs-37: 2.36rem;
-      --fw-400: 25rem;
+      --fw: 25rem;
       --ff--1:'roboto', sans-serif;
       --ff--2: 'Patua One', cursive;
     }
@@ -28,7 +28,7 @@ body {
   text-align: center;
   text-shadow: rgb(0, 132, 255) 1px 0 10px;
   outline: 1px solid rgb(243, 241, 241);
-  font-weight: var(--fw-400);
+  font-weight: var(--fw);
   
 }
  
@@ -102,7 +102,7 @@ li a{
     font-family: 'roboto', sans-serif;
     background-image: url(https://img.freepik.com/premium-photo/bamboo-wicker-pattern-as-background-extreme-closeup_476612-6650.jpg?w=740);
     background-repeat:no-repeat;
-    background-size: fill;
+    background-size: cover;
     background-position:center;
     box-sizing: border-box;
     margin: 0;
